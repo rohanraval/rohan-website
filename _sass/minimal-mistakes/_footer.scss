@@ -9,7 +9,7 @@
   margin-right: 0;
   width: 100%;
   margin-top: 3em;
-  color: $muted-text-color;
+  color: $footer-text-color; // changed
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
@@ -20,9 +20,9 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
+    margin-top: 0.8em; // changed
     max-width: 100%;
-    padding: 0 1em 2em;
+    padding: 0 1em 0.8em; // changed last
 
     @include breakpoint($x-large) {
       max-width: $x-large;
