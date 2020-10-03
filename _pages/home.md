@@ -1,6 +1,6 @@
 ---
 layout: single
 permalink: /
-title: Home
+title: welcome to rohan's world
 ---
 Hello!!
