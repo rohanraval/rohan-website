@@ -3,14 +3,18 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
+  position: fixed; // changed from relative
+  top: 0; // changed (added)
+  width: 100%;
+  background-color: $masthead-background-color; // changed
+  background: $masthead-background-color;  // changed -- set a color to hide content that may appear below masthead
+  height: $masthead-height; // changed -- need a magic number here which may break in different viewports
   border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
-  background-color: $masthead-background-color; // changed
 
   &__inner-wrap {
     @include clearfix;

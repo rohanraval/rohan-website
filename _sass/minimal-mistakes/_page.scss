@@ -8,6 +8,7 @@
   margin-right: auto;
   padding-left: 1em;
   padding-right: 1em;
+  padding-top: $masthead-height;  // changed -- padding-top equal to masthead height or greater
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   max-width: 100%;
@@ -108,7 +109,7 @@ body {
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: $type-size-7; // changed from 4
   }
 
   /* paragraph indents */
