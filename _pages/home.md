@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: wide
 permalink: /
 title: hi, i'm rohan
 ---
