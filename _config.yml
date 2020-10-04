@@ -96,7 +96,7 @@ author:
   name             : "rohan raval"
   avatar           : "/images/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "friendly neighborhood brogrammer"
-  location         : "the future"
+  location         :
   email            :
   links:
     - label: "email"
@@ -219,6 +219,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jemoji
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -227,6 +228,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jemoji
 
 
 # Archives
